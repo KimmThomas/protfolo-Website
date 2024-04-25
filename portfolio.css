@@ -1,0 +1,62 @@
+body {      /*Whole document*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: centre;
+  background-color: #f8f8f8;
+}
+
+nav ul {
+  list-style: none;   /*Removes bullets*/
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 20px;    /*0 - top and bottom, 20 - left and right*/
+}  
+
+nav a {   /*This is for the anchor tags*/
+  text-decoration: none;   /*Removes the underline*/
+  color: #333;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
